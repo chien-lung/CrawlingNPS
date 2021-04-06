@@ -14,6 +14,6 @@ Create an account on [MapQuest API](https://developer.mapquest.com/) to get a AP
 ## Interactive Command Line Interface
 1. Ask for a state name.
 2. Display national sites in this state (by [NPS](https://www.nps.gov))
-3. Enter a number you want to know more details or back to step-1.
+3. Enter a number you want to know more details or `back` to Step 1.
 4. Display results requesting from [MapQuest](https://developer.mapquest.com/).
 5. Repeat until entering `exit`.

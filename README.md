@@ -3,10 +3,12 @@
 
 Scraping and searching for information about National Sites (Parks, Heritage Sites, Trails, and other entities) from [National Park Service](https://www.nps.gov).
 In addition, adding the ability to look up nearby places using the [MapQuest API](https://developer.mapquest.com/).
+To avoid from requesting websites too many times, cache files are used in this project, which can also speed up searching.
 
 ## Package Usage
 * BeautifulSoup
 * requests
+* json
 
 ## Instruction
 Create an account on [MapQuest API](https://developer.mapquest.com/) to get a API KEY and store the key in `secrets.py` (e.g., `CONSUMER_KEY = xxx`).
